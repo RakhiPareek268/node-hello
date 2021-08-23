@@ -4,8 +4,9 @@ const port2 = process.env.PORT2 || 3001;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello node!\n'
-  res.end(msg);
+  //const msg = 'Hello node!\n'
+  //res.end(msg);
+  window.location.href = "http://www.instagram.com";
 });
 
 const server2 = http.createServer((req, res) => {
